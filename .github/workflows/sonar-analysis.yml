@@ -3,7 +3,7 @@ name: SonarQube Analysis
 on:
   push:
     branches:
-      - main  # Change this if you want to run on a different branch
+      - master
   pull_request:
     branches:
       - main
